@@ -27,6 +27,10 @@ gem 'rails_12factor', group: :production
 # Use Unicorn as the app server
 gem 'unicorn'
 
+gem 'omniauth-oauth2'
+
+gem 'figaro'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -45,7 +49,7 @@ group :development, :test do
   gem 'factory_girl_rails'
 
   gem 'database_cleaner'
-  
+
 end
 
 group :development do
